@@ -1,6 +1,6 @@
 # CRISP-DM Final Project: Reducing Credit Card Customer Churn & Increasing Cross-Sell Revenue
 
-**Author**: [Your Name]  
+**Author**: Daniel Abate Garay 
 **Date**: November 2025  
 **Topic**: Credit Cards  
 
@@ -12,4 +12,3 @@ Reduce customer churn by 15% and increase cross-sell revenue by 20% within 12 mo
 **Project Structure**  
 Follows industry best practices with clear separation of CRISP-DM phases.
 
-→ **Start reading here**: `0_Project_Overview_and_Business_Understanding.md`
