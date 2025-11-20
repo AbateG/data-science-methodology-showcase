@@ -1,6 +1,8 @@
 # CRISP-DM Final Project: Reducing Credit Card Customer Churn & Increasing Cross-Sell Revenue
 
-**Author**: Daniel Abate Garay **Date**: November 2025 **Topic**: Credit Cards  
+**Author**: Daniel Abate Garay 
+**Date**: November 2025 
+**Topic**: Credit Cards  
 
 This repository contains a complete, professional application of the CRISP-DM methodology to solve a real-world business problem for a credit card issuer.
 
