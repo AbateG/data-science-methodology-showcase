@@ -1,0 +1,147 @@
+# Business Problem Mind Map Placeholder
+
+This file is a placeholder for the business problem mind map diagram.
+
+## Recommended Content:
+
+A mind map visualizing the credit card customer churn business problem with the following structure:
+
+**Center Node: Credit Card Customer Churn**
+
+**Main Branches:**
+
+1. **Business Context**
+   - Mid-sized credit card issuer
+   - Competitive market
+   - Customer acquisition costs 5-7x retention costs
+   - Revenue from existing customers critical
+
+2. **Core Problem**
+   - Reduce churn by 15% (from 18% to 15.3%)
+   - Increase cross-sell revenue by 20%
+   - Improve CLV by 12%
+
+3. **Business Objectives**
+   - Financial: $24.3M annual net benefit
+   - Operational: Proactive retention strategies
+   - Strategic: Data-driven customer management
+
+4. **Success Criteria**
+   - Technical: AUC > 0.85, Precision@10% > 0.60
+   - Business: ROI > 5:1, measurable impact
+   - Operational: Production deployment, monitoring
+
+5. **Stakeholders**
+   - Client: Head of Customer Retention (CMO)
+   - Data Scientist: Lead analyst
+   - Users: Retention team, marketing team
+   - Partners: IT, data engineering, compliance
+
+6. **Data Sources**
+   - Internal: CBS, transactions, CRM, digital engagement
+   - External: Credit bureau data
+   - Volume: 500K customers, 50M transactions/month
+
+7. **Key Challenges**
+   - Class imbalance (18% churn)
+   - Data quality issues (missing income, etc.)
+   - Time-based prediction (prevent data leakage)
+   - Interpretability requirements
+   - Production deployment complexity
+
+8. **Solution Approach**
+   - CRISP-DM methodology
+   - XGBoost + ensemble models
+   - Feature engineering (RFM, trends, velocity)
+   - SMOTE for class balancing
+   - Time-based validation
+   - Phased deployment
+
+9. **Expected Outcomes**
+   - Churn prediction model (AUC 0.89)
+   - Cross-sell recommendations (Precision@5 0.39)
+   - Customer segmentation (5 actionable groups)
+   - Production system with monitoring
+   - 9.1:1 ROI
+
+10. **Risks & Mitigations**
+    - Model degradation: Continuous monitoring
+    - Implementation failure: Phased rollout
+    - Ethical concerns: Fairness audits
+    - Resource constraints: Prioritized scope
+
+## Where to Create the Mind Map:
+
+1. **MindMeister**: Online mind mapping at https://www.mindmeister.com/
+2. **XMind**: Desktop application at https://www.xmind.net/
+3. **Draw.io**: Free online tool at https://app.diagrams.net/
+4. **Lucidchart**: Professional tool at https://www.lucidchart.com/
+5. **PowerPoint**: Using SmartArt or shapes
+6. **Canva**: Templates at https://www.canva.com/
+
+## Recommended Specifications:
+
+- Format: PNG or PDF
+- Size: A3 or larger for readability
+- Colors: Professional scheme (blues, greens, grays)
+- Font: Clear, sans-serif (Arial, Calibri)
+- Layout: Hierarchical with center node
+- File size: < 5MB
+
+## To Replace This Placeholder:
+
+1. Create the mind map diagram
+2. Save it as `business-problem-mindmap.jpg` in this directory
+3. Delete this text file
+4. Reference in markdown files using:
+
+```
+![Business Problem Mind Map](assets/images/business-problem-mindmap.jpg)
+```
+
+## ASCII Art Representation:
+
+```
+                    ┌─────────────────────────────────────┐
+                    │       Credit Card Customer Churn     │
+                    └─────────────────┬───────────────────┘
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    │                 │                 │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐
+          │ Business Context │ │ Core       │ │ Success Criteria │
+          │                  │ │ Problem    │ │                  │
+          └─────────┬─────────┘ └─────┬─────┘ └────────┬─────────┘
+                    │                 │                 │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐
+          │ Competitive      │ │ Reduce     │ │ Technical:      │
+          │ Market           │ │ Churn 15%  │ │ AUC > 0.85      │
+          └──────────────────┘ └────────────┘ └─────────────────┘
+                    │                 │                 │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐
+          │ High Acquisition │ │ Increase   │ │ Business:       │
+          │ Costs            │ │ Revenue    │ │ ROI > 5:1       │
+          └──────────────────┘ │ 20%        │ └─────────────────┘
+                               └─────┬─────┘           │
+                                     │                 │
+                    ┌────────────────┼─────────────────┼────────────────┐
+                    │                │                 │                │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐ ┌─────▼─────┐
+          │ Data Sources     │ │ Challenges │ │ Solution        │ │ Outcomes  │
+          │                  │ │            │ │ Approach        │ │           │
+          └─────────┬─────────┘ └─────┬─────┘ └────────┬─────────┘ └─────┬─────┘
+                    │                 │                 │                 │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐ ┌─────▼─────┐
+          │ 500K Customers   │ │ Imbalance  │ │ CRISP-DM        │ │ AUC 0.89  │
+          └──────────────────┘ │ (18%)      │ └─────────────────┘ └────────────┘
+                               └─────┬─────┘           │
+                                     │                 │
+                    ┌────────────────┼─────────────────┼────────────────┐
+                    │                │                 │                │
+          ┌─────────▼─────────┐ ┌─────▼─────┐ ┌────────▼─────────┐ ┌─────▼─────┐
+          │ Transactions     │ │ Data       │ │ XGBoost         │ │ 9.1:1 ROI │
+          │ 50M/month        │ │ Quality    │ │ Models          │ │           │
+          └──────────────────┘ └────────────┘ └─────────────────┘ └────────────┘
+```
+
+This ASCII representation shows the hierarchical structure of the business problem mind map, with the central problem branching out to context, objectives, challenges, and solutions.
